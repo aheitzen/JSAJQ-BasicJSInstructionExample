@@ -1,3 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Courgette|Homemade+Apple|Lato:100i');
+html {
+	height: 100%;
+	width: 100%;
+}
+
 body {
-	background-color: red;
+	background:linear-gradient(rgba(230, 0, 230, 0.4), rgba(0, 0, 0, 0.2)), url(../images/flower.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+	background-color: black; 
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+	color: white;
+	font-family: 'Homemade Apple', cursive;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 70px;
+}
+
+#content {
+	border: white solid 3px;
+	background-color: transparent;
+	text-align: center;
+	max-width: 683px;
+	padding: 15px;
+    margin: 0 auto;
+}
+
+#greeting {
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+}
+
+table {
+	margin: 0 auto;
+}
+
+td {
+	float: left;
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+}
+
+button {
+	margin-top: 40px;
+	border: white solid 2px;
+	background-color: transparent;
+}
+
+a {
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Amatic SC', cursive;
 }
